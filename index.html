@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
     
-</section>
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,86 +8,137 @@
   <meta name="description" content="Nepali Soul blends authentic Nepali spices with soulful Southern cooking. Explore our fusion menu and spice up your day!" />
   <meta name="keywords" content="Nepali Soul, Nepali food, spices, Southern fusion, New Caney TX food, soul food, food truck" />
   <meta name="author" content="Nepali Soul" />
+  <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" href="/link rel="icon" href="/favicon.ico/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/link rel="icon" href="/favicon.ico/favicon.svg" />
   <link rel="shortcut icon" href="/link rel="icon" href="/favicon.ico/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="/link rel="icon" href="/favicon.ico/apple-touch-icon.png" />
   <link rel="manifest" href="/link rel="icon" href="/favicon.ico/site.webmanifest" />
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #000;
-      color: #fff;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(to right, #dc2626, #facc15, #2563eb);
-      text-align: center;
-      padding: 2rem;
-    }
-    header img {
-      height: 6rem;
-      margin-bottom: 1rem;
-    }
-    nav {
-      background-color: black;
-      text-align: center;
-      padding: 1rem;
-    }
-    nav a {
-      margin: 0 0.5rem;
-      color: #facc15;
-      font-weight: bold;
-      text-decoration: none;
-    }
-    nav a:hover {
-      color: white;
-    }
-    section {
-      padding: 1.5rem;
-      text-align: center;
-    }
-    .light {
-      background-color: #f0f9ff;
-      color: black;
-    }
-    .yellow {
-      background-color: #fef9c3;
-      color: black;
-    }
-    .card-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 1rem;
-    }
-    .card {
-      background: white;
-      color: black;
-      border-radius: 1rem;
-      padding: 1rem;
-    }
-    .card img {
-      width: 100%;
-      height: 10rem;
-      object-fit: cover;
-      border-radius: 0.75rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      color: #9ca3af;
-    }
-      header img {
-  	 height: 18rem;
-    	 max-width: 90%;
-    	 margin-bottom: 1rem;
-	}
-    }
-  </style>
+<style>
+  body {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #f04e30;
+    color: white;
+    text-align: center;
+    padding: 1em 0 2em;
+  }
+
+  header img {
+    max-height: 100px;
+    margin-top: 10px;
+  }
+
+  h1 {
+    margin: 0.2em 0 0;
+    font-size: 2.5em;
+  }
+
+  nav#menu-nav {
+    margin: 2em auto;
+    text-align: center;
+  }
+
+  nav#menu-nav a {
+    margin: 0 10px;
+    color: #f04e30;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2em 1em;
+  }
+
+  h3 {
+    margin-top: 2em;
+    font-size: 1.8em;
+    border-bottom: 2px solid #f04e30;
+    padding-bottom: 0.2em;
+  }.color-red {
+  color: #f04e30; /* Red */
+}
+
+.color-orange {
+  color: #ff8800; /* Orange */
+}
+
+.color-blue {
+  color: #007acc; /* Blue */
+}
+
+.color-red {
+  color: #f04e30; /* Red */
+}
+
+.color-orange {
+  color: #ff8800; /* Orange */
+}
+
+.color-blue {
+  color: #007acc; /* Blue */
+}
+
+  .menu-item {
+    margin-bottom: 1em;
+  }
+
+  .menu-item .item-name {
+    font-weight: bold;
+    font-size: 1.25em;
+    margin-bottom: 0.25em;
+    color: #000000;
+  }
+
+  .menu-item .item-description {
+    font-weight: normal;
+    font-size: 1em;
+    color: #333;
+  }
+
+  .spice-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .spice-card {
+    width: 200px;
+    background: #fff;
+    border: 2px solid #f04e30;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .spice-card img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .spice-card h4 {
+    margin-top: 0.8em;
+    color: #f04e30;
+  }
+
+  .spice-card p {
+    font-size: 0.9em;
+  }
+</style>
+
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -136,49 +185,226 @@
     <p><em>Spice Meets Soul</em></p>
   </header>
 
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#menu">Menu</a>
-    <a href="#about">About</a>
-    <a href="#contact">Contact</a>
-    <a href="#spices">Spices</a>
+   <nav id="menu-nav">
+    <a href="#masalas">Masalas</a> |
+    <a href="#fusion">Fusion Dishes</a> |
+    <a href="#combos">Combos</a> |
+    <a href="#saturday">Saturday Specials</a> |
+    <a href="#sides">Sides</a> |
+    <a href="#desserts">Desserts</a> |
+    <a href="#beverages">Beverages</a> |
+    <a href="#spices">Spice Benefits</a>
   </nav>
 
-  <section id="home">
-    <h2>Welcome to Nepali Soul</h2>
-    <p>Where Nepali spices meet soulful Southern flavors. Taste the fusion you never knew you needed!</p>
-  </section>
+  <section id="menu">
+  <h3 id="masalas" class="color-red">MASALAS</h3>
+  <div class="menu-item">
+    <h4 class="item-name">Veggie Masala Fry</h4>
+    <p class="item-description">Stir fried cabbage with fusion spices, lentils.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Chicken Masala Fry</h4>
+    <p class="item-description">Boneless chicken stir fried with Nepali spices.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Lamb Masala Fry</h4>
+    <p class="item-description">Boneless lamb leg cubes stir fried with Nepali spices.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Fish Masala Fry</h4>
+    <p class="item-description">Deep fried swai with Nepali and Southern spices.</p>
+  </div>
 
-  <section id="menu" class="light">
-    <h2>Menu</h2>
-    <div class="card-grid">
-      <div class="card"><h3>Veggie Masala Fry (Vegan)</h3><p>Stir fried cabbage with fusion spices and lentils.</p></div>
-      <div class="card"><h3>Chicken Masala Fry</h3><p>Boneless chicken stir fried with Nepali spices.</p></div>
-      <div class="card"><h3>Lamb Masala Fry</h3><p>Boneless lamb cubes stir fried with Nepali spices.</p></div>
-      <div class="card"><h3>Fish Masala Fry</h3><p>Deep fried swai with Nepali and Southern spices.</p></div>
-      <div class="card"><h3>Chicken Masala Fries</h3><p>Masala chicken over fries with chukauni and chutney.</p></div>
-      <div class="card"><h3>Lamb Masala Fries</h3><p>Lamb stir fry over fries with chukauni and chutney.</p></div>
-      <div class="card"><h3>Gwen's Kick'n Fried Chicken</h3><p>Deep fried wings with Nepali & Southern spices, served with fries.</p></div>
-      <div class="card"><h3>Jay's Jammin Fish Basket</h3><p>Southern-style fried swai with fusion spices, served with fries.</p></div>
-      <div class="card"><h3>Uncle Coot's Shrimp Boat</h3><p>Southern-style fried shrimp with fusion spices, served with fries.</p></div>
-      <div class="card"><h3>Jazzy Fries</h3><p>Fries with zesty cheese sauce, scallions, and cilantro.</p></div>
-      <div class="card"><h3>Chicken Thali</h3><p>Chicken masala, cabbage, lentils, rice, and chutney.</p></div>
-      <div class="card"><h3>Lamb Thali</h3><p>Lamb masala, cabbage, lentils, rice, and chutney.</p></div>
-      <div class="card"><h3>Fish Thali</h3><p>Fried fish, cabbage, lentils, rice, and chutney.</p></div>
-      <div class="card"><h3>Southern Oxtail Stew</h3><p>Oxtails slow-cooked with fusion spices. Served with rice, cabbage, sweet potatoes.</p></div>
-      <div class="card"><h3>Oxtail Over Fries</h3><p>Shredded oxtails over seasoned fries.</p></div>
-      <div class="card"><h3>Shrimp Pakora Bites</h3><p>Fried shrimp-onion mix with fusion spices, served with fries.</p></div>
-       <div class="card"><h3>Shrimp Pakora Bites</h3><p>Fried shrimp-onion mix with fusion spices, served with fries.</p></div>
-        <div class="card"><h3>Gulab Jamun</h3><p>Soft, fried milk-based dough in rose-sugar syrup.</p></div> 
-        <div class="card"><h3>Apple Pie</h3></div>
-        <div class="card"><h3>Peach Cobbler</h3></div>
-        <div class="card"><h3>Bottled Water</h3></div>
-        <div class="card"><h3>Canned Sodas</h3></div>
-        <div class="card"><h3>Topo Chico</h3></div>
-        <div class="card"><h3>Spiced Chai (Iced or Hot)</h3><p>Sweetened black tea with milk, water, and aromatic spices.</p></div>
-          <div class="card"><h3>Mango Lassi</h3><p>Sweet, creamy yogurt-based drink with mango puree, and aromatic spices.</p>
+  <h3 id="fusion" class="color-orange">FUSION DISHES</h3>
+
+  <div class="menu-item">
+    <h4 class="item-name">Chicken Masala Fries</h4>
+    <p class="item-description">Chicken masala over fries, topped with scallions, cilantro, chukauni (white sauce), and tomato chutney.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Lamb Masala Fries</h4>
+    <p class="item-description">Lamb stir fry over fries, topped with scallions, cilantro, chukauni (white sauce), and tomato chutney.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Gwen's Kick'n Fried Chicken</h4>
+    <p class="item-description">6 pcs deep fried chicken wings with fusion spices, served with fries.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Jay's Jammin Fish Basket</h4>
+    <p class="item-description">Southern-style fried swai with fusion spices, served with fries.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Uncle Coot's Shrimp Boat</h4>
+    <p class="item-description">Southern-style fried shrimp with fusion spices, served with fries.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Jazzy Fries</h4>
+    <p class="item-description">Seasoned fries tossed in zesty cheese sauce, topped with scallions and cilantro.</p>
+  </div>
+
+  <h3 id="combos" class="color-blue">COMBOS</h3>
+  <div class="menu-item">
+    <h4 class="item-name">Chicken Thali</h4>
+    <p class="item-description">Chicken masala, stir fried cabbage, lentils, rice, chutney.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Lamb Thali</h4>
+    <p class="item-description">Lamb masala, stir fried cabbage, lentils, rice, chutney.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Fish Thali</h4>
+    <p class="item-description">Fried fish, stir fried cabbage, lentils, rice, chutney.</p>
+  </div>
+
+  <h3 id="saturday" class="color-red">SATURDAY SPECIALS</h3>
+  <div class="menu-item">
+    <h4 class="item-name">Southern Oxtails</h4>
+    <p class="item-description">Slow-cooked oxtails with fusion spices - rice, stir fried cabbage, and candied sweet potatoes.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Oxtail Over Fries</h4>
+    <p class="item-description">Shredded slow-cooked oxtails over seasoned fries.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Shrimp Pakora Bites</h4>
+    <p class="item-description">6 pcs deep fried shrimp-onion mix with fusion spices, served with fries.</p>
+  </div>
+
+ <h3 id="sides" class="color-orange">SIDES</h3>
+  <div class="menu-item">
+    <h4 class="item-name">Skinny Minnie</h4>
+    <p class="item-description">Regular seasoned fries.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Bro Mo's Hush Puppies</h4>
+    <p class="item-description">Cornmeal batter deep fried (6).</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Dal (Lentils Soup)</h4>
+    <p class="item-description">Red lentils seasoned with Nepali spices.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Stir Fried Cabbage</h4>
+    <p class="item-description">With onions, carrots, bell peppers, seasoned fusion-style.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Gwen's Kick'n Fried Chicken (6 pcs)</h4>
+    <p class="item-description">Deep fried chicken wings with fusion spices.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Shrimp Pakora Bites (6 pcs)</h4>
+    <p class="item-description">Fried shrimp & onion mix with Nepali & Southern spices.</p>
+  </div>
+
+<h3 id="desserts" class="color-blue">DESSERTS</h3>
+  <div class="menu-item">
+    <h4 class="item-name">Gulab Jamun (3)</h4>
+    <p class="item-description">Soft, fried milk-based dough in rose-sugar syrup.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Apple Pie</h4>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Peach Cobbler</h4>
+  </div>
+
+  <h3 id="beverages" class="color-red">BEVERAGES</h3>
+
+  <div class="menu-item">
+    <h4 class="item-name">Bottled Water</h4>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Canned Sodas</h4>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Topo Chico</h4>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Mango Lassi</h4>
+    <p class="item-description">Sweet, creamy yogurt-based drink with mango puree and spices.</p>
+  </div>
+  <div class="menu-item">
+    <h4 class="item-name">Spiced Chai</h4>
+    <p class="item-description">Sweetened black tea with milk, water, and aromatic spices.</p>
+  </div>
+</section>
+
+
+ <section id="spices">
+  <h2>Spices Benefits</h2>
+  <div class="spice-section">
+    <div class="spice-card">
+      <img src="spices/turmeric.jpg" alt="Turmeric">
+      <h4>Turmeric</h4>
+      <p>Known for its powerful anti-inflammatory and antioxidant properties.</p>
     </div>
-  </section>
+    <div class="spice-card">
+      <img src="spices/paprika.jpg" alt="Paprika">
+      <h4>Paprika</h4>
+      <p>Rich in vitamins and antioxidants, supports eye health and boosts metabolism.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/celery-seed.jpg" alt="Celery Seed">
+      <h4>Celery Seed</h4>
+      <p>Helps with digestion and may reduce inflammation and blood pressure.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/red-pepper-flakes.jpg" alt="Red Pepper Flakes">
+      <h4>Red Pepper Flakes</h4>
+      <p>Boosts metabolism and provides a kick of heat with potential anti-inflammatory effects.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/bay-leaves.jpg" alt="Bay Leaves">
+      <h4>Bay Leaves</h4>
+      <p>Aromatic leaves that aid digestion and add a subtle bitterness to dishes.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/cardamom.jpg" alt="Cardamom">
+      <h4>Cardamom</h4>
+      <p>A fragrant spice that may help with digestion and freshens breath.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/cinnamon-sticks.jpg" alt="Cinnamon Sticks">
+      <h4>Cinnamon Sticks</h4>
+      <p>Helps regulate blood sugar and adds a warm, sweet flavor.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/cloves.jpg" alt="Cloves">
+      <h4>Cloves</h4>
+      <p>Strong antiseptic properties and can relieve toothaches and improve digestion.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/coriander-seeds.jpg" alt="Coriander Seeds">
+      <h4>Coriander Seeds</h4>
+      <p>Supports digestion and may help regulate blood sugar levels.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/cumin.jpg" alt="Cumin">
+      <h4>Cumin</h4>
+      <p>Boosts digestion and is rich in iron and beneficial plant compounds.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/fenugreek-seeds.jpg" alt="Fenugreek Seeds">
+      <h4>Fenugreek Seeds</h4>
+      <p>May help control blood sugar and increase milk production in breastfeeding mothers.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/garam-masala.jpg" alt="Garam Masala">
+      <h4>Garam Masala</h4>
+      <p>A spice blend that warms the body and supports digestion.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/mustard-seeds.jpg" alt="Mustard Seeds">
+      <h4>Mustard Seeds</h4>
+      <p>Stimulates appetite and digestion, with potential anti-inflammatory properties.</p>
+    </div>
+    <div class="spice-card">
+      <img src="spices/black-pepper.jpg" alt="Black Pepper">
+      <h4>Black Pepper</h4>
+      <p>Enhances nutrient absorption and supports gut health.</p>
+    </div>
+  </div>
+</section>
 
   <section id="about">
     <h2>About Us</h2>
@@ -195,91 +421,6 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.2295488536277!2d-95.18836468488887!3d30.141823081846353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86472f3f129d2925%3A0xe6f560b9c8e9b30b!2s23020%20Speed%20St%2C%20New%20Caney%2C%20TX%2077357!5e0!3m2!1sen!2sus!4v1714340893199!5m2!1sen!2sus"
         width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
-    </div>
-  </section>
-
-  <section id="spices" class="yellow">
-    <h2>Spice Benefits</h2>
-    <div class="card-grid">
-      <div class="card">
-        <img src="spices/bay-leaves.jpg" alt="Bay Leaves" />
-        <h3>Bay Leaves</h3>
-        <p>Adds subtle depth to stews and curries. Known to support digestion and reduce inflammation.</p>
-      </div>
-      <div class="card">
-        <img src="spices/green-cardamom.jpg" alt="Green Cardamom" />
-        <h3>Cardamom</h3>
-        <p>Sweet and aromatic — helps with digestion and freshens breath naturally.</p>
-      </div>
-      <div class="card">
-      <img src="spices/black-cardamom.jpg" alt="Black Cardamom" />
-      <h3>Black Cardamom</h3>
-      <p>Smoky and aromatic — aids digestion and adds a bold flavor to curries and stews.</p>
-    </div>
-      <div class="card">
-        <img src="spices/cinnamon.jpg" alt="Cinnamon Sticks" />
-        <h3>Cinnamon Sticks</h3>
-        <p>Helps regulate blood sugar and adds rich depth to sweet and savory dishes.</p>
-      </div>
-      <div class="card">
-        <img src="spices/cloves.jpg" alt="Cloves" />
-        <h3>Cloves</h3>
-        <p>High in antioxidants and often used for their antimicrobial properties.</p>
-      </div>
-      <div class="card">
-        <img src="spices/coriander.jpg" alt="Coriander Seeds" />
-        <h3>Coriander Seeds</h3>
-        <p>Mildly citrusy — supports digestion and may help lower blood sugar.</p>
-      </div>
-      <div class="card">
-        <img src="spices/cumin.jpg" alt="Cumin" />
-        <h3>Cumin</h3>
-        <p>Earthy and warming — supports digestion and adds a nutty base to masalas.</p>
-      </div>
-      <div class="card">
-        <img src="spices/fenugreek.jpg" alt="Fenugreek Seeds" />
-        <h3>Fenugreek Seeds</h3>
-        <p>Maple-like aroma — may help manage blood sugar and lower cholesterol.</p>
-      </div>
-      <div class="card">
-        <img src="spices/garam-masala.jpg" alt="Garam Masala" />
-        <h3>Garam Masala</h3>
-        <p>Bold blend of spices — adds warmth and complexity to dishes.</p>
-      </div>
-      <div class="card">
-        <img src="spices/mustard-seeds.jpg" alt="Mustard Seeds" />
-        <h3>Mustard Seeds</h3>
-        <p>They pop with flavor and may promote metabolism and heart health.</p>
-      </div>
-      <div class="card">
-        <img src="spices/black-pepper.jpg" alt="Black Pepper" />
-        <h3>Black Pepper</h3>
-        <p>Stimulates digestion and enhances nutrient absorption.</p>
-      </div>
-      <div class="card">
-      <img src="spices/ginger.jpg" alt="Ginger" />
-      <h3>Ginger</h3>
-      <p>Spicy and warming — aids digestion, reduces nausea, and has anti-inflammatory    	properties.</p>
-    </div>
-	<div class="card">
-      <img src="spices/turmeric.jpg" alt="Turmeric" />
-      <h3>Turmeric</h3>
-      <p>Anti-inflammatory and antioxidant properties, supports joint health and boosts 	immunity.</p>
-    </div>
-    <div class="card">
-      <img src="spices/paprika.jpg" alt="Paprika" />
-      <h3>Paprika</h3>
-      <p>Adds a smoky flavor and is rich in vitamins A and E, promoting healthy skin and 	vision.</p>
-    </div>
-    <div class="card">
-      <img src="spices/celery-seed.jpg" alt="Celery Seed" />
-      <h3>Celery Seed</h3>
-      <p>Known for its ability to support digestion and reduce inflammation in the 	body.</p>
-    </div>
-    <div class="card">
-      <img src="spices/red-pepper-flakes.jpg" alt="Red Pepper Flakes" />
-      <h3>Red Pepper Flakes</h3>
-      <p>Boosts metabolism and provides antioxidants, while adding heat and flavor to 	dishes.</p>
     </div>
   </section>
 
