@@ -43,6 +43,17 @@ header p {
   text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
 }
 
+#halal-logo {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  height: 60px; /* Adjust size as needed */
+  width: auto;
+  object-fit: contain;
+  border-radius: 5px; /* optional for styling */
+  box-shadow: 0 0 5px rgba(0,0,0,0.2); /* optional for subtle effect */
+}
+
   h1 {
     margin: 0.2em 0 0;
     font-size: 3.5em;
@@ -189,6 +200,7 @@ header p {
 <header>
   <div class="header-content">
     <img src="logo.png" alt="Nepali Soul Logo" />
+    <img src="images/halal-logo.png" alt="Halal Certified Logo" id="halal-logo" />
     <h1>Nepali Soul (Opening in June - Date Coming soon)</h1>
     <p><em>"Where Spice Meets Soul"</em></p>
   </div>
@@ -206,16 +218,6 @@ header p {
     <a href="#spices">Spice Benefits</a>
   </nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Born in Nepal, raised on spice. My wife has deep Southern roots. Together we’re sharing soulful, homemade fusion food made from scratch with love.</p>
-    <p>We are a family owned business specializing in bold and rare Nepali/Soul Food Fusion. We offer a burst of flavors that’ll entice your taste buds! 
-        Our menu selection offers a variety of Masala, Vegan option, and Southern Style cuisine. 
-        We also offer customer favorites such as Mango Lassi, Fried Chicken, Peach Cobbler, and Spiced Chai Tea.
-        Our food is made fresh daily, giving our customers the best quality in taste and flavor. 
-        Come and experience the flavors of fusion, “Where Spice Meets Soul”.</p>
-  </section>
-  
   <section id="menu">
   <h3 id="masalas" class="color-red">MASALAS</h3>
   <div class="menu-item">
@@ -349,7 +351,7 @@ header p {
     <p class="item-description">Sweet, creamy yogurt-based drink with mango puree and spices.</p>
   </div>
   <div class="menu-item">
-    <h4 class="item-name">Spiced Chai (Hot or Iced)</h4>
+    <h4 class="item-name">Spiced Chai</h4>
     <p class="item-description">Sweetened black tea with milk, water, and aromatic spices.</p>
   </div>
 </section>
@@ -434,6 +436,12 @@ header p {
     </div>
   </div>
 </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Born in Nepal, raised on spice. My wife has deep Southern roots. Together we’re sharing soulful, homemade fusion food made from scratch with love.</p>
+    <p>We are a family owned business specializing in bold Nepali/Soul Food Fusion. We offer a burst of flavors that’ll entice your taste buds! Our menu selection offers a variety of Masala, Vegan option, and Southern Style cuisine. We also offer customer favorites such as Mango Lassi, Peach Cobbler, and Spiced Chai Tea. Our food is made fresh daily, giving our customers the best quality in taste and flavor. Come and experience the flavors of fusion, “Where Spice Meets Soul”.</p>
+  </section>
 
   <section id="contact" class="light">
     <h2>Contact Us</h2>
